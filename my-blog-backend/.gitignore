@@ -3,3 +3,5 @@ mongo-db-data
 credentials.json
 build
 .vscode
+.env
+prod-env.yaml
