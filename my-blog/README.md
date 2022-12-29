@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Create React App Documentation
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+If you download this project to your own machine, you can use the documentation below to test the front-end of this project in dev.
 
 ## Available Scripts
 
