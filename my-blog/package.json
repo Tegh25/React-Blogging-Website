@@ -1,6 +1,7 @@
 {
   "name": "my-blog",
   "version": "0.1.0",
+  "homepage": "http://tegh25.github.io/React-Blogging-Website/",
   "private": true,
   "proxy": "http://localhost:8000/",
   "dependencies": {
@@ -18,6 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

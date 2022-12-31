@@ -19,7 +19,7 @@ const CreateAccountPage = () => {
             }
 
             await createUserWithEmailAndPassword(getAuth(), email, password);
-            navigate('/articles');
+            navigate('/React-Blogging-Website/articles');
         } catch (e) {
             setError(e.message);
         }
@@ -45,7 +45,7 @@ const CreateAccountPage = () => {
             onChange={e => setConfirmPassword(e.target.value)} />
         <button onClick={createAccount}>Create Account</button>
         <p></p>
-        <Link to="/login">Already have an account? Login</Link>
+        <Link to="/React-Blogging-Website/login">Already have an account? Login</Link>
         </>
     );
 }

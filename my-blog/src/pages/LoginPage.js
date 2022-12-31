@@ -13,7 +13,7 @@ const LoginPage = () => {
     const logIn = async () => {
         try {
             await signInWithEmailAndPassword(getAuth(), email, password);
-            navigate('/articles');
+            navigate('/React-Blogging-Website/articles');
         } catch (e) {
             setError(e.message);
         }
@@ -34,7 +34,7 @@ const LoginPage = () => {
             onChange={e => setPassword(e.target.value)} />
         <button onClick={logIn}>Login</button>
         <p></p>
-        <Link to="/create-account">Create Account</Link>
+        <Link to="/React-Blogging-Website/create-account">Create Account</Link>
         </>
     );
 }
