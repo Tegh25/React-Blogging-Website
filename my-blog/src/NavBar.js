@@ -11,13 +11,13 @@ const NavBar = () => {
         <nav>
             <ul>
                 <li>
-                    <Link to="/React-Blogging-Website/">Home</Link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/React-Blogging-Website/about">About</Link>
+                    <Link to="/about">About</Link>
                 </li>
                 <li>
-                    <Link to="/React-Blogging-Website/articles">Articles</Link>
+                    <Link to="/articles">Articles</Link>
                 </li>
             </ul>
             <div className="nav-right">
@@ -26,7 +26,7 @@ const NavBar = () => {
                         signOut(getAuth());
                     }}>Logout</button>
                     : <button onClick={() => {
-                        navigate('/React-Blogging-Website/login');
+                        navigate('/login');
                     }}>Login</button>}
             </div>
         </nav>

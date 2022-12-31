@@ -11,7 +11,7 @@ const AddCommentForm = ({ articleName, onArticleUpdated }) => {
     const addComment = async () => {
         const token = user && await user.getIdToken();
         const headers = token ? { authtoken: token } : {};
-        const response = await axios.post(`/React-Blogging-Website/api/articles/${articleName}/comments`, {
+        const response = await axios.post(`/api/articles/${articleName}/comments`, {
             postedBy: user,
             text: commentText,
         }, {

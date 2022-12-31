@@ -17,13 +17,13 @@ function App() {
         <NavBar />
         <div id="page-body">
           <Routes>
-            <Route path="/React-Blogging-Website/" element={<HomePage />} />
-            <Route path="/React-Blogging-Website/about" element={<AboutPage />} />
-            <Route path="/React-Blogging-Website/articles" element={<ArticlesListPage />} />
-            <Route path="/React-Blogging-Website/articles/:articleId" element={<ArticlePage />} />
-            <Route path="/React-Blogging-Website/login" element={<LoginPage />} />
-            <Route path="/React-Blogging-Website/create-account" element={<CreateAccountPage />} />
-            <Route path="/React-Blogging-Website/*" element={<NotFoundPage />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/articles" element={<ArticlesListPage />} />
+            <Route path="/articles/:articleId" element={<ArticlePage />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/create-account" element={<CreateAccountPage />} />
+            <Route path="/*" element={<NotFoundPage />} />
           </Routes>
         </div>
       </div>

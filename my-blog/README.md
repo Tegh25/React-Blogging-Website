@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 If you download this project to your own machine, you can use the documentation below to test the front-end of this project in dev.
 
+```"homepage": "http://tegh25.github.io/React-Blogging-Website/",```
+
 ## Available Scripts
 
 In the project directory, you can run:
