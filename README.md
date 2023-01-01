@@ -6,7 +6,7 @@ This application is ready to be hosted on a service such as Google Cloud. Howeve
 
 Documentation in progress...
 
-## The Website
+## The Blog
 
 show screenshots of the site and functionality...
 
