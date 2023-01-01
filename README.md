@@ -8,7 +8,7 @@ Documentation in progress...
 
 ## The Website
 
-show screenshots of the site and functionality
+show screenshots of the site and functionality...
 
 ## How it Works
 
