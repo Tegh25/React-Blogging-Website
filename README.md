@@ -4,6 +4,10 @@ This full-stack application utilizes React, Node.js, and MongoDB along with a va
 
 This application is ready to be hosted on a service such as Google Cloud. However, since hosting is not free, **this project is currently offline**. Please see screenshots and documentation of the finished product below.
 
+A demo of this project can be found here: https://tegh25.github.io/React-Blogging-Website/
+
+The above link is hosted by GitHub Pages which cannot support the backend for this project. As a result, some functionality such as upvoting and commenting is not available.
+
 Documentation in progress...
 
 ## The Blog
