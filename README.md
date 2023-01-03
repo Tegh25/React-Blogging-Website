@@ -32,5 +32,16 @@ By clicking on one of the three articles, the full article will appear as well a
 
 ## How it Works
 
-show screenshots of code, backend, api calls, database, etc...
+This app was created utilizing React for the frontend and the Express framework for a Node.js backend. Axios was used to handle requests between the frontend and backend. 
 
+<img src="https://user-images.githubusercontent.com/48258080/210306514-15cc8e65-0d1e-40d5-8916-d196bf8600ac.png" width="600" height="325">
+
+The number of upvotes and the comments on each article are stored on a MongoDB database.
+
+<img src="https://user-images.githubusercontent.com/48258080/210306133-e63a20cf-7688-49cc-ba8a-7de9e42e8862.png" width="600" height="325">
+
+This app use Firebase Auth for its login and authentication features and was prepared to be released on Google Cloud.
+
+<img src="https://user-images.githubusercontent.com/48258080/210306273-2923cb05-2f38-4bcd-af9b-a0cf51a913de.png" width="600" height="325">
+
+*Currently, I am happy with how this project turned out and I do not have any plans to build on it.*
