@@ -15,7 +15,7 @@ Documentation in progress...
 This blogging website features a home page, an about page, three articles, and the ability to create an account and login. All of these are accessed using the navigation bar at the top of the website.
 
 <img src="https://user-images.githubusercontent.com/48258080/210302507-8500d512-9860-48d1-84b5-ed68ef74bbec.png" width="600" height="325">
-
+ 
 Clicking the login button in the top right allows you to access the login and create account pages, or logout if you are already logged in.
 
 <img src="https://user-images.githubusercontent.com/48258080/210302676-7c5c078a-f3b4-42e9-a5e8-a7a0f9055317.png" width="600" height="375">
