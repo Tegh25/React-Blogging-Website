@@ -12,16 +12,17 @@ Documentation in progress...
 
 ## The Blog
 
-show screenshots of the site and functionality...
-
 This blogging website features a home page, an about page, three articles, and the ability to create an account and login. All of these are accessed using the navigation bar at the top of the website.
+
 <img src="https://user-images.githubusercontent.com/48258080/210302507-8500d512-9860-48d1-84b5-ed68ef74bbec.png" width="600" height="325">
 
 Clicking the login button in the top right allows you to access the login and create account pages, or logout if you are already logged in.
+
 <img src="https://user-images.githubusercontent.com/48258080/210302676-7c5c078a-f3b4-42e9-a5e8-a7a0f9055317.png" width="600" height="375">
 <img src="https://user-images.githubusercontent.com/48258080/210302686-1d016ffa-e15a-4bb6-8534-d0ce3bb1c6a6.png" width="600" height="360">
 
 A list of all the articles can be accessed on the articles page.
+
 <img src="https://user-images.githubusercontent.com/48258080/210302825-4e8af78e-b9b8-494f-8bff-515385bf8d6e.png" width="600" height="325">
 
 By clicking on one of the three articles, the full article will appear as well as the ability to upvote and comment on the article if you are logged in.
@@ -32,3 +33,4 @@ By clicking on one of the three articles, the full article will appear as well a
 ## How it Works
 
 show screenshots of code, backend, api calls, database, etc...
+
