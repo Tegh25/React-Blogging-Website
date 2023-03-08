@@ -8,8 +8,6 @@ A demo of this project can be found here: https://tegh25.github.io/React-Bloggin
 
 The above link is hosted by GitHub Pages which cannot support the backend for this project. As a result, some functionality such as upvoting and commenting is not available.
 
-Documentation in progress...
-
 ## The Blog 
 
 This blogging website features a home page, an about page, three articles, and the ability to create an account and login. All of these are accessed using the navigation bar at the top of the website.
